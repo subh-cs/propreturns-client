@@ -10,7 +10,7 @@ const Navbar = () => {
             width="30"
             height="30"
           ></img>
-          <div className="text-xl">RealEstate</div>
+          <div className="text-3xl font-bold">RealEstate</div>
         </div>
         <div className="flex items-center justify-between gap-x-20">
           <div>Search</div>
