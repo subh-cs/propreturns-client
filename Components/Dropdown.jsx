@@ -2,7 +2,7 @@ import React from "react";
 
 const Dropdown = ({heading}) => {
   return (
-    <div class="">
+    <div class="hidden md:block">
       <div class="dropdown inline-block relative">
         <button class="bg-gray-100 text-gray-700 font-semibold py-2 px-4 rounded inline-flex items-center">
           <span class="mr-1">{heading}</span>

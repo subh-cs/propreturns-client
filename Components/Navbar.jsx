@@ -18,16 +18,13 @@ const Navbar = () => {
           <div>Help</div>
           <div>Contact</div>
         </div>
-        <button
-          type="button"
-          class=" bg-white border border-gray-300 focus:outline-none p-2 hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-lg text-sm dark:text-white "
-        >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
-            width="30"
-            height="30"
-          ></img>
-        </button>
+
+        <img
+          src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
+          width="50"
+          height="50"
+          className="rounded-full border-2 border-gray-600"
+        ></img>
       </div>
     </>
   );
