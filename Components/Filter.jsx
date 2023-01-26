@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "./Dropdown";
 import Modal from "./Modal";
 
-const Filter = ({ triggerHandler }) => {
+export const Filter = ({ triggerHandler }) => {
   const [addModal, setAddModal] = useState(false);
 
   const ModalHandler = () => {
@@ -42,5 +42,3 @@ const Filter = ({ triggerHandler }) => {
     </>
   );
 };
-
-export default Filter;

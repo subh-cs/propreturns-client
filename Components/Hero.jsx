@@ -4,7 +4,7 @@ import { DELETE_HOUSE } from "@/Helper/queries";
 import Modal from "./Modal";
 import Map from "./Map";
 
-const Hero = ({ houseData, triggerHandler }) => {
+export const Hero = ({ houseData, triggerHandler }) => {
   const [EditModal, setEditModal] = useState(false);
   const [ID, setId] = useState("");
   let [deleteHouse, { data }] = useMutation(DELETE_HOUSE);
@@ -102,4 +102,3 @@ const Hero = ({ houseData, triggerHandler }) => {
   );
 };
 
-export default Hero;

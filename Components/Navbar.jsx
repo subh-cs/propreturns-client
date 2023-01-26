@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <div className="w-screen">
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
@@ -153,4 +153,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
