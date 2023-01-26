@@ -1,10 +1,10 @@
-import Filter from "@/components/Filter";
-import Hero from "@/components/Hero";
+import Filter from "../components/Filter";
+import Hero from "../components/Hero";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { useEffect, useState } from "react";
 import { getAllHouseData } from "@/api";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const client = new ApolloClient({
   uri: "http://localhost:3001/graphql",
