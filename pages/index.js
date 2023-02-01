@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const client = new ApolloClient({
-  uri: "http://localhost:3001/graphql",
+  uri: "https://propreturnsgrapqlserver.vercel.app/graphql",
   cache: new InMemoryCache(),
 });
 
