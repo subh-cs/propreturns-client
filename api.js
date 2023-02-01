@@ -2,7 +2,7 @@ import axios from "axios";
 import { GET_HOUSES, GET_HOUSE } from "./Helper/queries";
 // import { DELETE_HOUSE } from "./Helper/queries";
 
-const BaseUrl = "http://localhost:3001/graphql";
+const BaseUrl = "https://propreturnsgrapqlserver.vercel.app/graphql";
 
 export const getAllHouseData = async () => {
   const response = await axios({
