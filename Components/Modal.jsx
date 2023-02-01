@@ -4,7 +4,7 @@ import { useQuery } from "@apollo/client";
 import { useMutation } from "@apollo/client";
 import { ADD_HOUSE, GET_HOUSE, UPDATE_HOUSE } from "../Helper/queries";
 import axios from "axios";
-import { getSingleHouseData } from "@/api";
+import { getSingleHouseData } from "../api";
 
 const Modal = ({ handler, houseId, triggerHandler }) => {
   const [Price, setPrice] = useState("");
