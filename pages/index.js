@@ -1,10 +1,10 @@
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import { useEffect, useState } from "react";
 import { getAllHouseData } from "../api";
-import Filter from "../components/Filter";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Filter from "../Modules/Filter";
+import Hero from "../Modules/Hero";
+import Navbar from "../Modules/Navbar";
+import Footer from "../Modules/Footer";
 
 const client = new ApolloClient({
   uri: "https://propreturnsgrapqlserver.vercel.app/graphql",

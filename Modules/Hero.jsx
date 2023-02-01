@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
-import { DELETE_HOUSE } from "@/Helper/queries";
+import { DELETE_HOUSE } from "../Helper/queries";
 import Modal from "./Modal";
 import Map from "./Map";
 
